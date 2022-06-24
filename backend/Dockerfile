@@ -2,7 +2,7 @@ FROM node
 
 WORKDIR /app
 
-COPY backend/package.json .
+COPY Multi-app/backend/package.json .
 
 RUN npm install 
 
