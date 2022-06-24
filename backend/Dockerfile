@@ -6,7 +6,7 @@ COPY Multi-app/backend/package.json .
 
 RUN npm install 
 
-COPY backend/ .
+COPY Multi-app/backend/ .
 
 EXPOSE 80
 
